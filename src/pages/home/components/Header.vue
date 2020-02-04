@@ -7,12 +7,15 @@
             <span class="iconfont">&#xe624;</span>
             输入城市/景点/游玩主题
         </div>
+        <div class="header-right">
+            <span class="iconfont arrow-icon">&#xe64a;</span>
+        </div>
     </div>
 </template>
 
 <script>
 export default {
-    name: "HomeHeader",
+    name: 'HomeHeader',
     computed: {
 
     }
@@ -20,7 +23,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-    @import '~styles/varibles.styl'
+    @import '~@/assets/styles/varibles.styl'
     .header
         display: flex
         line-height: $headerHeight
@@ -48,7 +51,7 @@ export default {
             float: right
             text-align: center
             color: #fff
-            .arrow-icon
+            .arrow-icont
                 margin-left: -.04rem
                 font-size: .24rem
 
